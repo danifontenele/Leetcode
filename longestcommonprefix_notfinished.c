@@ -34,10 +34,10 @@ char* longestCommonPrefix(char** strs, int strsSize)
 	return (prefix);
 }
 
-int main(void)
+/* int main(void)
 {
 	char *strs[] = {"flower", "flow", "flight"};
 	char *prefix;
 	prefix = longestCommonPrefix(strs, 3);
 	printf("%s\n", prefix);
-}
+} */
